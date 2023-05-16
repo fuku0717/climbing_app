@@ -1,6 +1,8 @@
 class MountainsController < ApplicationController
+  before_action :set_mountain, except: [:index, :new, :create]
 
   def index
+    @mountains = Mountain.includes(:user)
   end
 
   def new
@@ -19,6 +21,10 @@ class MountainsController < ApplicationController
   private
   def mountain_params
     params.require(:mountain).permit(:mountain_name, :level, :point, :image).merge(user_id: current_user.id)
+  end
+
+  def set_mountain
+    @mountain = Mountain.find(params[:id])
   end
 
 end

@@ -4,6 +4,7 @@ class MountainsController < ApplicationController
   end
 
   def new
+    @mountain = Mountain.new
   end
 
   def create

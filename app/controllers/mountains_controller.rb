@@ -8,7 +8,12 @@ class MountainsController < ApplicationController
   end
 
   def create
-    Mountain.create(mountain_params)
+    @mountain = Mountain.new(mountain_params)
+    if @mountain.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 
   private

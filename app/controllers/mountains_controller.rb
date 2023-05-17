@@ -19,6 +19,9 @@ class MountainsController < ApplicationController
     end
   end
 
+  def show
+  end
+
   private
   def mountain_params
     params.require(:mountain).permit(:mountain_name, :level, :point, :image).merge(user_id: current_user.id)

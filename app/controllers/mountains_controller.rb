@@ -1,5 +1,6 @@
 class MountainsController < ApplicationController
   before_action :set_mountain, except: [:index, :new, :create]
+  before_action :authenticate_user!, except: [:index, :show]
 
   def index
     @mountains = Mountain.includes(:user)

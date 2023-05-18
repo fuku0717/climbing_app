@@ -5,30 +5,30 @@
         <%= @mountain.mountain_name %>
       </p>
       <%= link_to "by #{@mountain.user.name}", user_path(@mountain.user), class: :prototype__user %>
-      <%# プロトタイプの投稿者とログインしているユーザーが同じであれば以下を表示する %>
-        <div class="prototype__manage">
+      <% if user_signed_in? && current_user.id == @mountain.user_id %>
+        <div class="mountain__manage">
           <%= link_to "編集する", root_path, class: :prototype__btn %>
           <%= link_to "削除する", root_path, class: :prototype__btn %>
         </div>
-      <%# // プロトタイプの投稿者とログインしているユーザーが同じであれば上記を表示する %>
-      <div class="prototype__image">
+      <% end %>
+      <div class="mountain__image">
         <%= image_tag "プロトタイプの画像" %>
       </div>
-      <div class="prototype__body">
-        <div class="prototype__detail">
+      <div class="mountain__body">
+        <div class="mountain__detail">
           <p class="detail__title">キャッチコピー</p>
           <p class="detail__message">
             <%= "プロトタイプのキャッチコピー" %>
           </p>
         </div>
-        <div class="prototype__detail">
+        <div class="mountain__detail">
           <p class="detail__title">コンセプト</p>
           <p class="detail__message">
             <%= "プロトタイプのコンセプト" %>
           </p>
         </div>
       </div>
-      <div class="prototype__comments">
+      <div class="mountain__comments">
         <%# ログインしているユーザーには以下のコメント投稿フォームを表示する %>
           <%# <%= form_with model: モデル名,local: true do |f|%>
             <div class="field">

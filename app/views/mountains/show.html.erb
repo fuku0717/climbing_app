@@ -12,19 +12,19 @@
         </div>
       <% end %>
       <div class="mountain__image">
-        <%= image_tag "プロトタイプの画像" %>
+        <%= image_tag @mountain.image %>
       </div>
       <div class="mountain__body">
         <div class="mountain__detail">
-          <p class="detail__title">キャッチコピー</p>
+          <p class="detail__title">山の名称</p>
           <p class="detail__message">
-            <%= "プロトタイプのキャッチコピー" %>
+            <%= @mountain.mountain_name %>
           </p>
         </div>
         <div class="mountain__detail">
-          <p class="detail__title">コンセプト</p>
+          <p class="detail__title">標高、登山難易度</p>
           <p class="detail__message">
-            <%= "プロトタイプのコンセプト" %>
+            <%= @mountain.level %>
           </p>
         </div>
       </div>

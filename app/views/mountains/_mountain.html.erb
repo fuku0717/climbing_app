@@ -1,10 +1,10 @@
 <div class="card">
-  <%= link_to image_tag(mountain.image, class: :card__img ), root_path%>
+  <%= link_to image_tag(mountain.image, class: :card__img ), mountain_path(mountain) %>
   <div class="card__body">
-    <%= link_to mountain.mountain_name, root_path, class: :card__title%>
+    <%= link_to mountain.mountain_name, mountain_path(mountain), class: :card__title%>
     <p class="card__summary">
       <%= mountain.level %>
     </p>
-    <%= link_to "by #{mountain.user.name}", root_path, class: :card__user %>
+    <%= link_to "by #{mountain.user.name}", user_path(mountain.user), class: :card__user %>
   </div>
 </div>

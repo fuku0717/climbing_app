@@ -23,6 +23,12 @@ class MountainsController < ApplicationController
     @mountain = Mountain.find(params[:id])
   end
 
+  def edit
+  end
+
+  def update
+  end
+
   private
   def mountain_params
     params.require(:mountain).permit(:mountain_name, :level, :point, :image).merge(user_id: current_user.id)

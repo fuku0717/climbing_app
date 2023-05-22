@@ -28,6 +28,11 @@ class MountainsController < ApplicationController
   end
 
   def update
+    if @mountain.update(mountain_params)
+      redirect_to mountain_path(@mountain)
+    else
+      render :edit
+    end
   end
 
   private

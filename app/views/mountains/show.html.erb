@@ -8,7 +8,7 @@
       <% if user_signed_in? && current_user.id == @mountain.user_id %>
         <div class="mountain__manage">
           <%= link_to "編集する", edit_mountain_path, class: :mountain__btn %>
-          <%= link_to "削除する", root_path, class: :mountain__btn %>
+          <%= link_to "削除する", mountain_path, method: :delete, class: :mountain__btn %>
         </div>
       <% end %>
       <div class="mountain__image">

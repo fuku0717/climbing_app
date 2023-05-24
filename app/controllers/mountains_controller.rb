@@ -21,7 +21,8 @@ class MountainsController < ApplicationController
   end
 
   def show
-    @mountain = Mountain.find(params[:id])
+    @comment = Comment.new
+    @comments = @mountain.comments.includes(:user)
   end
 
   def edit

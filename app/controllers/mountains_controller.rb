@@ -37,11 +37,9 @@ class MountainsController < ApplicationController
   end
 
   def destroy
-    if @prototype.destroy
-      redirect_to root_path
-    else
-      redirect_to root_path
-    end
+    @mountain = Mountain.find(params[:id])
+    @mountain.destroy
+    redirect_to root_path
   end
 
   private

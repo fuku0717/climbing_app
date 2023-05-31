@@ -22,7 +22,7 @@ class MountainsController < ApplicationController
 
   def show
     @comment = Comment.new
-    @comments = @mountain.comments.includes(:user)
+    @comments = @mountain.comments
   end
 
   def edit

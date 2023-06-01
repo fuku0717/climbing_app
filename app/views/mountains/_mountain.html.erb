@@ -5,6 +5,6 @@
     <p class="card__summary">
       <%= mountain.level %>
     </p>
-    <%= link_to "by #{mountain.user.name}", #user_path(mountain.user), class: :card__user %>
+    <%= link_to "by #{mountain.user.name}", user_path(mountain.user), class: :card__user %>
   </div>
 </div>

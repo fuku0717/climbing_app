@@ -27,6 +27,12 @@
             <%= @mountain.level %>
           </p>
         </div>
+        <div class="mountain__detail">
+          <p class="detail__title">登って良かったところ</p>
+          <p class="detail__message">
+            <%= @mountain.point %>
+          </p>
+        </div>
       </div>
       <div class="mountain__comments">
         <% if user_signed_in? %>

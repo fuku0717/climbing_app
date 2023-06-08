@@ -4,7 +4,7 @@ class CommentsController < ApplicationController
     if @comment.save
       redirect_to mountain_path(@comment.mountain)
     else
-      @mountain = @comment.mountain
+      @mountain = @comments.mountain
       @comments = @mountain.comments
       render "mountains/show"
     end

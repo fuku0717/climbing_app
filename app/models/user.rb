@@ -6,8 +6,8 @@ class User < ApplicationRecord
 
          validates :name, presence: true
          validates :profile, presence: true
-         validates :occupation, presence: true
-         validates :position, presence: true
+         validates :prefecture, presence: true
+         validates :history, presence: true
        
          has_many :mountains
          has_many :comments

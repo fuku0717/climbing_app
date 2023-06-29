@@ -38,7 +38,7 @@
         <% if user_signed_in? %>
           <%= form_with model: [@mountain, @comment], local: true do |f|%>
             <div class="field">
-              <%= f.label :content, "その山に登った人達のコメント" %><br />
+              <%= f.label :content, "コメント" %><br />
               <%= f.text_field :content, id:"comment_content" %>
             </div>
             <div class="actions">

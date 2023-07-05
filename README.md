@@ -8,8 +8,8 @@
 | encrypted_password | string | null: false               |
 | name               | string | null: false               |
 | profile            | text   | null: false               |
-| occupation         | text   | null: false               |
-| position           | text   | null: false               |
+| prefecture         | text   | null: false               |
+| history            | text   | null: false               |
 
 ### Association
 - has_many :mountains

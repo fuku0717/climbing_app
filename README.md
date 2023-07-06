@@ -1,47 +1,56 @@
-# テーブル設計
+## アプリケーション名
 
-## users テーブル
 
-| Column             | Type   | Options                   |
-| ------------------ | ------ | ------------------------- |
-| email              | string | null: false, unique: true |
-| encrypted_password | string | null: false               |
-| name               | string | null: false               |
-| profile            | text   | null: false               |
-| prefecture         | text   | null: false               |
-| history            | text   | null: false               |
 
-### Association
-- has_many :mountains
-- has_many :comments
+## アプリケーション概要
+
+
+
+## URL
 
 
 
 
-## mountains テーブル
+## テスト用アカウント
 
-| Column             | Type       | Options                        |
-| ------------------ | ---------- | ------------------------------ |
-| mountain_name      | string     | null: false                    |
-| level              | text       | null: false                    |
-| point              | text       | null: false                    |
-| user               | references | null: false, foreign_key: true |
 
-### Association
-- belongs_to :user
-- has_many :comments
+
+## 利用方法
 
 
 
 
-## comments テーブル
 
-| Column      | Type       | Options                        |
-| ----------- | ---------- | ------------------------------ |
-| content     | text       | null: false                    |
-| mountain    | references | null: false, foreign_key: true |
-| user        | references | null: false, foreign_key: true |
+## アプリケーションを作成した背景
 
-### Association
-- belongs_to :user
-- belongs_to :mountain
+
+
+## 洗い出した要件
+
+
+
+## 実装した機能についての画像やGIFおよびその説明
+
+
+
+## 実装予定の機能
+
+
+
+## データベース設計
+
+
+
+## 画面遷移図
+
+
+
+## 開発環境
+
+
+
+## ローカルでの動作方法
+
+
+
+## 工夫したポイント

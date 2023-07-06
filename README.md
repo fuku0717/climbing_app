@@ -13,9 +13,14 @@ climbing_app
 
 ## テスト用アカウント
 ・Basic認証ID:
+
 ・Basic認証PASS:
+
 ・メールアドレス
+
 ・パスワード
+
+
 
 ## 利用方法
 

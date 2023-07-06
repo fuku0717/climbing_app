@@ -33,7 +33,7 @@ climbing_app
 
 
 ## 洗い出した要件
-
+https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9Mijc/edit#gid=982722306
 
 
 ## 実装した機能についての画像やGIFおよびその説明

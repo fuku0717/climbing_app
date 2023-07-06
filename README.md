@@ -29,7 +29,7 @@ climbing_app
 
 
 ## アプリケーションを作成した背景
-
+これから登山を始めたいけれど、どの山に登ろうか迷っている人、
 
 
 ## 洗い出した要件
@@ -65,3 +65,4 @@ https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2Fclimbing.dio
 
 
 ## 工夫したポイント
+ペイント3Dでアプリのロゴマークを作成しました。

@@ -45,7 +45,7 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 
 
 ## データベース設計
-
+https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2Fclimbing.dio
 
 
 ## 画面遷移図

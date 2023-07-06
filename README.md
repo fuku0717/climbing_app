@@ -53,7 +53,11 @@ https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2Fclimbing.dio
 
 
 ## 開発環境
+フロントエンド
 
+バックエンド
+
+インフラ
 
 
 ## ローカルでの動作方法

@@ -50,6 +50,7 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 　https://gyazo.com/d4ecb52162c2920f36c575ed78ee8c4c
 
 ⑤コメント投稿機能
+　https://gyazo.com/60d9f3dc94368f8c5608bc5b8ae10bd5
 
 ## 実装予定の機能
 今後、ユーザー情報の編集機能を実装予定です。

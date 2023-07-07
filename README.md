@@ -41,7 +41,7 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 
 
 ## 実装予定の機能
-
+今後、ユーザー情報の編集機能を実装予定です。
 
 
 ## データベース設計

@@ -52,6 +52,15 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 ⑤コメント投稿機能
 　https://gyazo.com/60d9f3dc94368f8c5608bc5b8ae10bd5
 
+⑥投稿内容編集機能
+　https://gyazo.com/4e26ece33869d9456ece22c21e815e9b
+
+⑦投稿内容削除機能
+　https://gyazo.com/f41ef669cf2b3e771cb4048959594488
+
+⑧ユーザー詳細機能
+　https://gyazo.com/1bf584ac138c1f958a5f9bd5c5970f0d
+ 
 ## 実装予定の機能
 今後、ユーザー情報の編集機能を実装予定です。
 

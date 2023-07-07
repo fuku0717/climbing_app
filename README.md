@@ -12,9 +12,9 @@ climbing_app
 
 
 ## テスト用アカウント
-・Basic認証ID: admin
+・Basic認証ユーザー名: admin
 
-・Basic認証PASS: 2222
+・Basic認証パスワード: 2222
 
 ・メールアドレス
 
@@ -61,6 +61,15 @@ https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2F%E7%94%BB%E9%9D%A2
 
 
 ## ローカルでの動作方法
+以下のコマンドを順に実行
+
+% git clone https://github.com/fuku0717
+
+% cd climbing_app
+
+% bundle install
+
+% yarn install
 
 
 

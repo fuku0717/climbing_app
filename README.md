@@ -37,9 +37,19 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 
 
 ## 実装した機能についての画像やGIFおよびその説明
-①ユーザー新規登録
+①ユーザー新規登録機能
 　https://gyazo.com/4781c6932ccdd8cfd167003acb4b68f3
 
+②ユーザーログイン機能
+
+
+③ユーザーログアウト機能
+
+
+④新規投稿機能
+https://gyazo.com/d4ecb52162c2920f36c575ed78ee8c4c
+
+⑤コメント投稿機能
 
 ## 実装予定の機能
 今後、ユーザー情報の編集機能を実装予定です。

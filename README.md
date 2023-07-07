@@ -82,7 +82,7 @@ https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2F%E7%94%BB%E9%9D%A2
 
 
 ## ローカルでの動作方法
-以下のコマンドを順に実行
+以下のコマンドを順に実行してください。
 
 % git clone https://github.com/fuku0717
 

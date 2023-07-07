@@ -49,7 +49,7 @@ https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2Fclimbing.dio
 
 
 ## 画面遷移図
-
+https://app.diagrams.net/#Hfuku0717%2Fclimbing_app%2Fmaster%2F%E7%94%BB%E9%9D%A2%E9%81%B7%E7%A7%BB%E5%9B%B3.drawio
 
 
 ## 開発環境

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T06:32:38.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="qhTxZdJrxcpMM5xalocm" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T06:47:25.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BCx6-MQzEjcSB4VUlDD9" version="21.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,6 +15,24 @@
         </mxCell>
         <mxCell id="Lvul272cgsA0bpO8FcA5-8" value="ユーザー新規登録ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvul272cgsA0bpO8FcA5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="260" as="sourcePoint" />
+            <mxPoint x="225" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lvul272cgsA0bpO8FcA5-18" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvul272cgsA0bpO8FcA5-22" value="" style="line;strokeWidth=2;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="40" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvul272cgsA0bpO8FcA5-28" value="新規投稿ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="285" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Lvul272cgsA0bpO8FcA5-29" value="ユーザー新規登録ページ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

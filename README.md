@@ -44,7 +44,7 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 
 
 ③ユーザーログアウト機能
-
+　https://gyazo.com/a4207cf8c04c1ed8e9aed4a8a058284b
 
 ④新規投稿機能
 　https://gyazo.com/d4ecb52162c2920f36c575ed78ee8c4c

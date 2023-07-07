@@ -47,7 +47,7 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 
 
 ④新規投稿機能
-https://gyazo.com/d4ecb52162c2920f36c575ed78ee8c4c
+　https://gyazo.com/d4ecb52162c2920f36c575ed78ee8c4c
 
 ⑤コメント投稿機能
 

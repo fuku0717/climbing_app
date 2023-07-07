@@ -37,7 +37,8 @@ https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9M
 
 
 ## 実装した機能についての画像やGIFおよびその説明
-
+①ユーザー新規登録
+　https://gyazo.com/4781c6932ccdd8cfd167003acb4b68f3
 
 
 ## 実装予定の機能

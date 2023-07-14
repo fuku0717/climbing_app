@@ -47,7 +47,7 @@ climbing_app
 どちらもネットで調べれば情報は出て来ますが、リアルタイムで登山好きの方々が情報交換しあったりアドバイスし合える場があればより欲しい情報に近づけたり、登山がより楽しくなるのでは、と考えこのアプリを作成いたしました。
 
 ## 洗い出した要件
-https://docs.google.com/spreadsheets/d/1M-8os2JF4X_6LvVns_crVbrxQ-3Qdw-TX0G38b9Mijc/edit#gid=982722306
+https://docs.google.com/spreadsheets/d/1SMGGvPrc0M-cIctsEWEQvN6nYd7Jrxpx0c1kQUA8HOY/edit#gid=1137952534
 
 
 ## 実装した機能についての画像やGIFおよびその説明

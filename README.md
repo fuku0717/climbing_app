@@ -13,7 +13,7 @@ climbing_app
 
 
 ## URL
-※デプロイが出来次第記入します。
+https://climbing-app-39091.onrender.com
 
 
 

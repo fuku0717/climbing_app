@@ -4,12 +4,6 @@
       <h2 class="page-heading">
         <%= "#{@user.name}さんの情報"%>
       </h2>
-      <% if user_signed_in? && current_user.id == @mountain.user_id %>
-        <div class="mountain__manage">
-          <%= link_to "編集する", edit_mountain_path(@mountain), class: :mountain__btn %>
-          <%= link_to "削除する", mountain_path(@mountain), method: :delete, class: :mountain__btn %>
-        </div>
-      <% end %>
       <table class="table">
         <tbody>
           <tr>

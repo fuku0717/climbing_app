@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :mountain do
-    :mountain_name { Faker::Lorem.sentence }
+    
     :level         { Faker::Lorem.sentence }
     :point         { Faker::Lorem.sentence }
 

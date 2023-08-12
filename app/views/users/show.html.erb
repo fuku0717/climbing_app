@@ -6,7 +6,7 @@
       </h2>
       <% if user_signed_in? && current_user.id == @mountain.user_id %>
         <div class="mountain__manage">
-          <%= link_to "編集する", edit_mountain_path(@mountain), class: :mountain__btn %>
+          <%= link_to "編集する", user_path(@user), class: :mountain__btn %>
         </div>
       <% end %>
       <table class="table">

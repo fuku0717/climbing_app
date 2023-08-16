@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   resources :mountains do
     resources :comments, only: :create
   end
-  resources :users, only: [:show, :edit, :update]
+  resources :users, only: [:show]
 end

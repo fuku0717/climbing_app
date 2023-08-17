@@ -4,7 +4,7 @@
       <h2 class="page-heading">
         <%= "#{@user.name}さんの情報"%>
       </h2>
-      <% if user_signed_in? && current_user.id == @mountain.user_id %>
+      <% if user_signed_in? && current_user.id %>
         <div class="mountain__manage">
           <%= link_to "編集する", user_path(@user), method: :get, class: :mountain__user %>
         </div>

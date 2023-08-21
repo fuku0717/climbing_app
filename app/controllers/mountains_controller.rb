@@ -26,6 +26,7 @@ class MountainsController < ApplicationController
   end
 
   def edit
+    @mountain = Mountain.find(params[:id])
   end
 
   def update
